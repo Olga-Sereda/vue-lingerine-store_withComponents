@@ -19,7 +19,8 @@ const routes = [
 ]
 
 const router = new VueRouter({
-    routes
+//   history: createWebHistory("/vue-lingerine-store/"),
+  routes,
 });
 
 export default router;
