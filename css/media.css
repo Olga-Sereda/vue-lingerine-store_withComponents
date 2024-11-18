@@ -1,0 +1,21 @@
+@media (max-width: 1450px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .content__catalog {
+        grid-template-columns: auto;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .catalog {
+        align-items: center;
+    }
+
+    .catalog__list {
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    }
+}
