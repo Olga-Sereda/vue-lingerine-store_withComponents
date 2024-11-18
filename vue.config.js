@@ -4,6 +4,6 @@ module.exports = defineConfig({
 })
 
 module.exports = {
-  publicPath: '/vue-lingerine-store/'
+  publicPath: "/vue-lingerine-store_withComponent/",
   // publicPath: process.env.NODE_ENV === "production" ? "/vue-lingerine-store/" : "/",
-}
+};
